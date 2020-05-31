@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <title>Destiny</title>
+  <link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <form>
+    <fieldset>
+      <legend></legend>
+ <label><b>Registration Form</b><br></label>
+ <label>Name</label>
+ <input><br>
+ <label>Date of Birth</label>
+   <input type="date"><br>
+ <label for="myStates">Country</label>
+ <input type="text" name="myStates" id="myStates" list="state">
+ <datalist id="state">
+   <option >India</option>
+   <option >United States</option>
+    <option >United Kingdom</option>
+    <option >Australia</option>
+    <option >France</option>
+    
+ </datalist><br>
+ <label>Phone number</label><input type="tel"><br>
+ <label>Email</label><input type="email"><br>
+ <label>Website</label><input type="url"> 
+ 
+    </fieldset>
+    <button type="submit">Submit</button>
+ </form>
+ <audio id="demo" src="C:\Users\Daya\version control\pappu-pakia\sound\jump3.mp3"></audio>
+<div>
+    <button onclick="document.getElementById('demo').play()">
+    Play the Audio   </button>
+</div>
+
+</body>
+</html>
